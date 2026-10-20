@@ -55,6 +55,43 @@
             color: #777777;
             font-size: 0.9em;
         }
+
+        .cv-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            font-size: 0.95em;
+        }
+        
+        .cv-table td {
+            padding: 10px 12px 10px 0;
+            vertical-align: top;
+        }
+        
+        .cv-table td:first-child {
+            width: 105px;
+            white-space: nowrap;
+            color: #555555;
+        }
+        
+        .cv-table tr + tr {
+            border-top: 1px solid #eeeeee;
+        }
+        
+        .venue {
+            display: block;
+            color: #666666;
+            font-size: 0.9em;
+            margin-top: 2px;
+        }
+        
+        #teaching h3 {
+            font-size: 1.05em;
+            font-weight: 500;
+            margin-top: 28px;
+            margin-bottom: 8px;
+        }
+
     </style>
 </head>
 
@@ -65,10 +102,12 @@
         <nav>
             <a href="#about">About</a>
             <a href="#research">Research</a>
-            <a href="#publications">Publications</a>
+            <a href="#publications">Preprints</a>
+            <a href="#talks">Talks</a>
             <a href="#teaching">Teaching</a>
             <a href="#contact">Contact</a>
         </nav>
+
     </header>
 
     <section id="about">
@@ -89,7 +128,7 @@
     </section>
 
     
-    <section id="publications">
+    <section id="preprints">
         <h2>Preprints</h2>
         <ul>
             <li>
@@ -114,13 +153,136 @@
         </ul>
     </section>
 
+    
+    <section id="talks">
+        <h2>Talks and Posters</h2>
+    
+        <table class="cv-table">
+            <tbody>
+                <tr>
+                    <td>Oct. 2026</td>
+                    <td>
+                        A visual description of the Euler characteristic
+                        for kernels of Artin groups
+                        <span class="venue">University of Warwick</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>June 2026</td>
+                    <td>
+                        Poster on topological invariants of Artin kernels
+                        <span class="venue">Korea Institute for Advanced Study</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Feb. 2026</td>
+                    <td>
+                        Morse theory and finiteness properties of groups
+                        <span class="venue">University of Southampton</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Oct. 2025</td>
+                    <td>
+                        A Bestvina–Brady type theorem
+                        <span class="venue">Long-distance seminar on GGT in Mexico</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Oct. 2024</td>
+                    <td>
+                        Spectra and stable homotopy theory
+                        <span class="venue">Instituto de Matemáticas de la UNAM</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Oct. 2023</td>
+                    <td>
+                        Poster on Ricci Flow
+                        <span class="venue">San Luis Potosí</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>March 2023</td>
+                    <td>
+                        Ricci flow: An introduction
+                        <span class="venue">Instituto de Matemáticas de la UNAM</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Feb. 2023</td>
+                    <td>
+                        Special solutions to the Ricci flow equation
+                        <span class="venue">DIVAGEO</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 
     <section id="teaching">
-        <h2>Teaching</h2>
-        <p>
-            Information about my teaching and lecture notes.
-        </p>
+        <h2>Teaching Assistantships</h2>
+    
+        <h3>University of Southampton</h3>
+    
+        <table class="cv-table">
+            <tbody>
+                <tr>
+                    <td>Autumn 2025</td>
+                    <td>
+                        Core Skills (MATH1066)<br>
+                        Linear Algebra I (MATH1048)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Winter 2025</td>
+                    <td>Linear Algebra II (MATH1049)</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h3>National Autonomous University of Mexico (UNAM)</h3>
+    
+        <table class="cv-table">
+            <tbody>
+                <tr>
+                    <td>2025-1</td>
+                    <td>
+                        Analytic Geometry I<br>
+                        Topology II
+                    </td>
+                </tr>
+                <tr>
+                    <td>2024-2</td>
+                    <td>
+                        Algebra I<br>
+                        Analytic Geometry I
+                    </td>
+                </tr>
+                <tr>
+                    <td>2024-1</td>
+                    <td>Algebra II</td>
+                </tr>
+                <tr>
+                    <td>2023-2</td>
+                    <td>
+                        Algebra II<br>
+                        Differential Equations I
+                    </td>
+                </tr>
+                <tr>
+                    <td>2023-1</td>
+                    <td>Algebra for Physicists</td>
+                </tr>
+                <tr>
+                    <td>2022-2</td>
+                    <td>Algebra II</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
+
 
     <section id="contact">
         <h2>Contact</h2>
